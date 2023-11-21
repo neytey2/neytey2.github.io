@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Neue Zeile, wenn der Platz nicht ausreicht */
+  justify-content: space-between; /* Platziere die Flexboxen in 2x2-Anordnung */
+}
+
+.flex-item {
+  background-color: #333; /* Hintergrundfarbe der Flexboxen */
+  color: white; /* Textfarbe */
+  border-radius: 10px; /* Abrundung der Flexboxen */
+  padding: 20px; /* Innenabstand */
+  margin: 10px; /* Außenabstand */
+  flex: 0 0 calc(50% - 20px); /* Breite der Flexboxen (50% abzüglich des Abstands) */
+}
+.flex-header {
+  border: 2px solid #333; /* 2px dicker Rahmen mit dunkler Farbe */
+  padding: 10px; /* Innenabstand */
+  border-radius: 10px; /* Abrundung */
+  margin-bottom: 10px; /* Abstand zur darunterliegenden Textbox */
+  background-color: #ff8c00;
+}
